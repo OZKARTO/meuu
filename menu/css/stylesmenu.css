@@ -1,0 +1,41 @@
+body{
+    background-color: whitesmoke;
+}
+
+.nav{
+    background-color: #ff81de;
+    margin: 0px;
+    padding: 0px;    
+}
+.navbar-brand{
+    color: white;
+    font-size: larger ;
+    font-weight: bold;
+    font-size: 2em;
+
+}
+
+@media only screen and (min-width: 831) and (max-width: 424) {
+    /* For mobile phones: */
+    .row{
+        padding-left: 10%;
+        background-color: antiquewhite;
+    }
+  }
+
+  @media only screen and (min-width: 832px) and (max-width: 425px) {
+    /* For mobile phones: */
+    .row{
+        padding-left: 10%;
+        background-color: antiquewhite;
+    }
+  }
+
+.btn{
+    background-color: #ff81de;
+    color: white;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
